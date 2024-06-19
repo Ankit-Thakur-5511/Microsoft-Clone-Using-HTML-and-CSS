@@ -1,0 +1,463 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    box-sizing: border-box;
+}
+
+/* Header (Start) */
+header {
+    height: 60px;
+    font-size: 13.5px;
+    display: flex;
+    align-items: center;
+}
+
+.site-logo {
+    height: 50px;
+    width: 120px;
+    padding: 10px 5px 10px 5px;
+    border-color: transparent;
+    margin-left: 100px;
+    margin-right: 25px;
+}
+
+.cursor:hover {
+    cursor: pointer;
+}
+
+.border:active {
+    border: 1px dotted black;
+}
+
+#logo {
+    width: 108px;
+    height: 23px;
+}
+
+.navbar {
+    height: 60px;
+    width: 850px;
+    padding-left: 2px;
+}
+
+.navbar a {
+    color: black;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    border-bottom: 2px solid black;
+}
+
+.navbar li {
+    list-style: none;
+    display: inline;
+    padding-right: 15px;
+    line-height: 4;
+}
+
+.nav {
+    margin-left: 15px;
+}
+
+.nav:hover {
+    cursor: pointer;
+    border-bottom: 2px solid black;
+}
+
+.fa-magnifying-glass {
+    font-size: 18px;
+}
+
+.fa-cart-shopping {
+    font-size: 18px;
+}
+
+.fa-user-plus {
+    font-size: 18px;
+}
+
+.cursor {
+    cursor: pointer;
+}
+/* Header (End) */
+
+/* Hero Section (Start) */
+.hero-con1 {
+    height: 171px;
+    width: 480px;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    float: right;
+}
+
+.hero-con2 {
+    padding: 48px;
+    position: relative;
+    right: 100px;
+    top: 90px;
+}
+
+.hero-con2 h1,p {
+    margin-bottom: 24px;   
+}
+
+.hero-con2 button {
+    height: 40px;
+    width: 110px;
+    color: white;
+    background-color: #0067b8;
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 1;
+    border: none;
+    border-radius: 2px;
+}
+
+.hero-con2 button:hover {
+    background-color:#0661a6;
+}
+
+main {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.hero-section  {
+    background-image: url(img1\(hero-sec\).avif);
+    height: 460px;
+    width: 100%;
+    background-size: cover;
+}
+/* Hero Section (End) */
+
+.window  {
+    height: 120px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.window1 {
+    list-style: none;
+    display: flex;
+    
+}
+
+.window1 i {
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 8px;  
+}
+
+.window1 li {
+    margin: 24px;
+}
+
+.window1 a {
+    color: #0067b8;
+    font-weight: 600;
+}
+
+.space {
+    height: 20px;
+}
+
+/* Boxes (Start) */
+.container {
+    height: 535px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.content-boxes {
+    display: flex;
+}
+
+.boxes {
+    width: 313px;
+    margin: 0px 12px 0px 12px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 8px 0px;
+}
+
+.boxes img {
+    width: 313px;
+    background-size: cover;
+}
+
+.boxes h2 {
+    padding: 24px 24px 16px 24px;
+}
+
+.boxes p {
+    height: 165px;
+    width: 313px;
+    padding-left: 24px;
+    padding-right: 24px;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.boxes button {
+    height: 40px;
+    width: 110px;
+    color: white;
+    background-color: #0067b8;
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 1;
+    border: none;
+    border-radius: 2px;
+    margin-left: 24px;
+}
+
+.boxes button:hover {
+    background-color:#0661a6;
+}
+
+#button1 {
+    width: 180px;
+    margin-top: 32px;
+}
+
+#para {
+    padding-left: 24px;
+    padding-right: 24px;
+    height: 140px;
+}
+
+#button2 {
+    width: 150px;
+}
+
+#para1 {
+    font-weight: 600;
+    color: #0067b8;
+    height: 0;
+    margin: 8px 0 8px 0;
+}
+
+#para1:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+/* Boxes (End) */
+
+.img6-box {
+    background-image: url(https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Highlight-Hero-Windows11-GlobalLaunch:VP5-1596x600);
+    background-size: cover;
+    height: 500px;
+    max-width: 88%;
+    margin: auto;
+}
+
+
+.img-text {
+    color: white;
+    position: relative;
+    top: 110px;
+    left: 50px;
+    padding: 48px;
+    width: 500px;
+    height: 245px;
+}
+
+.img-text h2 {
+    color: white;
+    font-size: 35px;
+    font-weight: 500;
+    padding-bottom: 12px;
+}
+
+.img-text button {
+    height: 40px;
+    width: 170px;
+    color: white;
+    background-color: #0067b8;
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 1;
+    border: none;
+    border-radius: 2px;
+}
+
+.img-text button:hover {
+    background-color:#0661a6;
+    cursor: pointer;
+}
+
+/* Boxes 2 (Start) */
+#heading {
+    font-size: 35px;
+    font-weight: 500;
+    margin: 0px 0px 10px 90px;
+}
+
+.content-boxes2 {
+    display: flex;
+    justify-content: center;
+}
+
+.boxes2 {
+    height: 460px;
+    width: 313px;
+    margin: 0px 12px 0px 12px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 8px 0px;
+}
+
+.boxes2 img {
+    height: 170px;
+    width: 313px;
+    background-size: cover;
+}
+
+.boxes2 h2 {
+    font-size: 30px;
+    font-weight: 500;
+    padding: 24px 24px 16px 24px;
+}
+
+.boxes2 p {
+    width: 313px;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-bottom: 20px;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.boxes2 button {
+    height: 40px;
+    color: white;
+    background-color: #0067b8;
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 1;
+    border: none;
+    border-radius: 2px;
+    margin-left: 24px;
+}
+
+.boxes2 button:hover {
+    background-color:#0661a6;
+    cursor: pointer;
+}
+
+#butn1 {
+    width: 100px;
+    margin-top: 15px;
+}
+
+#butn2 {
+    width: 150px;
+    margin-top: 15px;
+}
+
+#butn3 {
+    width: 110px;
+    margin-top: -10px;
+}
+
+#butn4 {
+    width: 170px;
+    margin-top: -8px;   
+}
+/* Boxes 2 (End) */
+
+.social-media {
+    display: flex;
+    padding-left: 90px;
+    font-size: 15px;
+}
+
+.social-media i {
+    padding-left: 15px;
+    font-size: 22px;
+}
+
+/* Footer (Start) */
+footer {
+    height: 400px;
+    background-color: rgb(241, 241, 241);
+}
+
+.footer-part1 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer-part1 ul {
+    list-style: none;
+    padding-top: 35px;
+}
+
+.footer-part1 p {
+    color: rgb(87, 85, 85);
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.footer-part1 li {
+    color: rgb(87, 85, 85);
+    font-size: 12px;
+    padding-bottom: 15px;
+}
+
+.footer-part1 a {
+    color: rgb(87, 85, 85);
+    text-decoration: none;
+}
+
+.footer-part1 a:hover {
+    text-decoration: underline;
+}
+
+.footer-part2 {
+    font-size: 12px;
+    padding: 30px 75px 16px 75px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-part2 span {
+    display: flex;
+    align-items: center;
+}
+
+.footer-part2 ul {
+    display: flex;
+}
+
+.footer-part2 li {
+    list-style: none;
+}
+
+.footer-part2 a {
+    color: rgb(87, 85, 85);
+    text-decoration: none;
+    margin-right: 25px;
+}
+
+.footer-part2 a:hover {
+    text-decoration: underline;
+}
+
+.footer-part2 i {
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.fa-square-xmark {
+    margin-left: -12.5px;
+}
+/* Footer (End) */
